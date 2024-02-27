@@ -24,7 +24,7 @@
             if(nums.Count != 0)
                 foreach (var num in nums)
                 {
-                    var sum = SumOfDigit(Math.Abs(num));
+                    var sum = SumOfDigit(num);
                     if(maxSum < sum)
                     {
                         maxSum = sum;
